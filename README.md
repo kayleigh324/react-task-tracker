@@ -11,7 +11,7 @@ I made this live using these commands..
 
 Make sure you have already created a repo in github.
 In "package.json" file of project add - "homepage": "https://kayleigh324.github.io/react-task-tracker/"
-Run Install - "yarn add gh-pages"
+Run Install - "npm add gh-pages"
 In "package.json/scripts" add `"predeploy":"npm run build", "deploy":"gh-pages -d build"` 
 Run "npm run build" to create the build
 To push in git use following steps:
