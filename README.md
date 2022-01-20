@@ -5,7 +5,22 @@ Continuing on this project, using a mock json server to input data and deal with
 
 Install JSON Server with 
 
-npm install -g json-server
+npm install -i json-server
+
+Edit package.json to add server..
+
+```
+ "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    **"server": "json-server --watch db.json --port 5000"**
+  },
+  
+ ``` 
 
 Create a db.json file within project files, will with some data, such as this..
 
