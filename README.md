@@ -43,3 +43,5 @@ Create a db.json file within project files, will with some data, such as this..
 }
 ```
 
+Then start the server by running npm run server
+
