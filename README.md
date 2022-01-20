@@ -7,7 +7,7 @@ Install JSON Server with
 
 npm install -i json-server
 
-Edit package.json to add server..
+Edit package.json to add server..using  "server": "json-server --watch db.json --port 5000"
 
 ```
  "scripts": {
@@ -17,7 +17,7 @@ Edit package.json to add server..
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    **"server": "json-server --watch db.json --port 5000"**
+    "server": "json-server --watch db.json --port 5000"
   },
   
  ``` 
